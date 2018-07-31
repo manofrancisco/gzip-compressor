@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/francisco/Dropbox/TI-Proj1/Proj2/TI_TP2_Milton_Francisco_Pedro/gzip.cpp
+cstdlib
+-
+cstring
+-
+string.h
+-
+math.h
+-
+gzip.h
+/Users/francisco/Dropbox/TI-Proj1/Proj2/TI_TP2_Milton_Francisco_Pedro/gzip.h
+helper.h
+/Users/francisco/Dropbox/TI-Proj1/Proj2/TI_TP2_Milton_Francisco_Pedro/helper.h
+
+/Users/francisco/Dropbox/TI-Proj1/Proj2/TI_TP2_Milton_Francisco_Pedro/gzip.h
+stdio.h
+-
+
+/Users/francisco/Dropbox/TI-Proj1/Proj2/TI_TP2_Milton_Francisco_Pedro/helper.cpp
+helper.h
+/Users/francisco/Dropbox/TI-Proj1/Proj2/TI_TP2_Milton_Francisco_Pedro/helper.h
+
+/Users/francisco/Dropbox/TI-Proj1/Proj2/TI_TP2_Milton_Francisco_Pedro/helper.h
+huffman.h
+/Users/francisco/Dropbox/TI-Proj1/Proj2/TI_TP2_Milton_Francisco_Pedro/huffman.h
+
+/Users/francisco/Dropbox/TI-Proj1/Proj2/TI_TP2_Milton_Francisco_Pedro/huffman.cpp
+huffman.h
+/Users/francisco/Dropbox/TI-Proj1/Proj2/TI_TP2_Milton_Francisco_Pedro/huffman.h
+
+/Users/francisco/Dropbox/TI-Proj1/Proj2/TI_TP2_Milton_Francisco_Pedro/huffman.h
+stdio.h
+-
+string.h
+-
+
